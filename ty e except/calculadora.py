@@ -1,9 +1,9 @@
 def calculadora ():
     try:
         print("Calcualadora simples")
-        num1 = input("Digite o primeiro numero: ")
+        num1 = int (input("Digite o primeiro numero: "))
         operador = input("Digite o operador (+, -, *, /): ")
-        num2 = input("Digite o segundo numero: ")
+        num2 = int (input("Digite o segundo numero: "))
 
         if operador == "+":
             resultado = num1 + num2
